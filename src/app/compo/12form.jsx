@@ -193,7 +193,7 @@ const Post12Form = () => {
                   setQuestions(newQuestions);
                 }}
                 placeholder="Enter the question"
-                className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-500"
+                className="w-full px-3 py-2 border rounded-md focus:outline-none text-black focus:border-blue-500"
               />
             </div>
 
@@ -212,7 +212,7 @@ const Post12Form = () => {
                     setQuestions(newQuestions);
                   }}
                   placeholder={`Option ${optionIndex + 1}`}
-                  className="w-full px-3 py-2 border rounded-md mb-2 focus:outline-none focus:border-blue-500"
+                  className="w-full px-3 py-2 border rounded-md mb-2 focus:outline-none text-black focus:border-blue-500"
                 />
               ))}
               <button
@@ -263,7 +263,7 @@ const Post12Form = () => {
                   newQuestions[questionIndex].solution = e.target.value;
                   setQuestions(newQuestions);
                 }}
-                className="w-full p-2.5 border rounded-lg focus:outline-none focus:border-blue-500"
+                className="w-full p-2.5 border rounded-lg focus:outline-none text-black focus:border-blue-500"
                 placeholder="Write the solution here..."
               ></textarea>
             </div>
